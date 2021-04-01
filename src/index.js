@@ -7,11 +7,13 @@ import "./university/animate.css";
 import "./university/fonts.css";
 import "./university/style.css";
 
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   
+      <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 

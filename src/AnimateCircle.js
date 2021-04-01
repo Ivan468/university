@@ -1,3 +1,5 @@
+
+    
 let divs = document.querySelectorAll(".polygon-animate");
 
 // helper method to get a multitude of a
@@ -125,4 +127,6 @@ function reset() {
   setTimeout(engageGuage, 1000);
 }
 
-reset();
+reset() 
+
+ 

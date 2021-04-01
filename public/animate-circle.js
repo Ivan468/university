@@ -1,3 +1,4 @@
+// grab all DIV elements in the document
 let divs = document.querySelectorAll(".polygon-animate");
 
 // helper method to get a multitude of a
