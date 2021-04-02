@@ -7,13 +7,13 @@ body {
       rgba(68, 188, 255, 0) 100%
     ),
     center/ contain url(./image/bg.png),
-    0px 20px / 40vw no-repeat url(./image/icon.svg), #112054;
+    0px 20px / 40vw no-repeat url(./image/icon.svg), #f1f1f2;
   /* background-size: contain; */
 }
 form {
   width: 100%;
   display: flex;
-  border-top: 1px dashed #21caff;
+  border-top: 1px dashed #150035;
   align-items: center;
 }
 input.search {
@@ -24,7 +24,7 @@ input.search {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #fff;
+  color: #150035;
   padding: 7px 0;
   background: transparent;
   transition: border-color 0.2s;
@@ -35,7 +35,7 @@ input.search::placeholder {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  color: #fff !important;
+  color: #150035 !important;
 }
 .search::-moz-placeholder {
   opacity: 1;
@@ -110,7 +110,6 @@ main {
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-   
 }
 /* CIRCLE */
 .circle-block {
@@ -119,6 +118,7 @@ main {
   background: center/ 442px no-repeat url(./image/circle/circle-bg-small.svg),
     center/ 644px no-repeat url(./image/circle/circle-bg.svg);
   position: relative;
+  
 }
 .cyrcle-rotate {
   position: absolute;
@@ -143,7 +143,7 @@ main {
   font-size: 70px;
   line-height: 63px;
   text-align: center;
-  color: #ffffff;
+  color: #150035;
 }
 .sum-student > p {
   font-family: Oswald;
@@ -154,7 +154,7 @@ main {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #150035;
   margin-top: 19px;
 }
 
@@ -173,7 +173,6 @@ main {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height, or 125% */
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.1em;
@@ -207,7 +206,7 @@ main {
   font-size: 40px;
   line-height: 47px;
   /* identical to box height, or 157% */
-  color: #ffffff;
+  color: #150035;
 }
 .circle-text > div > span {
   font-size: 30px;
@@ -298,14 +297,12 @@ main {
   animation: circleblock-bottom 1s ease-in-out 8s 1 normal forwards;
   transform: translate(0px, 0px) scale(1);
 }
-
 .text-block {
   font-size: 30px;
   text-align: center;
   left: 27px;
   top: 15px;
 }
-
 .text-block > div {
   font-size: 30px;
   text-align: center;
@@ -324,9 +321,8 @@ main {
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #1d5a96;
+  color: #150035;
 }
-
 .mid-text-circle {
   left: 75px;
   top: 119px;
@@ -435,7 +431,7 @@ main {
   font-weight: normal;
   font-size: 20px;
   line-height: 20px;
-  color: #44bcff;
+  color: #150035;
 }
 
 .left-block .finanse-cash > p {
@@ -446,7 +442,7 @@ main {
   line-height: 15px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #150035; 
   margin-top: 2px;
 }
 
@@ -459,7 +455,7 @@ main {
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: #150035; 
 }
 .retancle-one-graph {
   position: relative;
@@ -490,11 +486,7 @@ main {
   animation-duration: 12s;
   animation-delay: 1s;
   width: 0px;
-  background: linear-gradient(
-    270deg,
-    #44bcff 0%,
-    rgba(68, 188, 255, 0.15) 100%
-  );
+  background: linear-gradient(270deg, #217aff 0%, rgba(33, 122, 255, 0) 100%);
 }
 .retancle-one-graph .rotate-left > div > p {
   font-family: Montserrat;
@@ -504,7 +496,7 @@ main {
   line-height: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #150035;
   margin-bottom: 4px;
 }
 .retancle-one-graph .tulskiy-un {
@@ -549,7 +541,7 @@ main {
 .retancle-one.bottom {
   padding: 30px 34px 34px 34px;
   z-index: 1;
- align-self: flex-end;
+  align-self: flex-end;
 }
 .retancle-one.bottom .retancle-one-graph {
   display: flex;
@@ -561,7 +553,6 @@ main {
 .left-block.right .retancle-one-graph .column {
   display: flex;
   flex-direction: column;
-  
 }
 .retancle-one.bottom .retancle-one-graph .column.center svg {
   overflow: visible;
@@ -586,7 +577,7 @@ div.bottom-block-stats-wrapper
   line-height: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #1d5a96;
+  color: #627DAE;
   max-width: 69px;
   font-family: Oswald;
   font-style: normal;
@@ -624,7 +615,7 @@ div.bottom-block-stats-wrapper
 .left-block.right .retancle-one.right .globus > svg:nth-child(1) {
   position: absolute;
   left: 151px;
-top: 22px;
+  top: 22px;
 }
 .left-block.right .retancle-one.right .globus > svg:nth-child(2) {
   position: absolute;
@@ -668,10 +659,9 @@ top: 22px;
 }
 
 div.right:nth-child(1) > div:nth-child(2) {
- width: 328px;
- padding: 2px 6px 0px 0px;
+  width: 328px;
+  padding: 2px 6px 0px 0px;
 }
-
 
 .left-block.right .text-globus .column .finanse-cash {
   position: relative;
@@ -730,8 +720,8 @@ div.right:nth-child(1) > div:nth-child(2) {
   line-height: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffffff;
-   margin-bottom: 6px;
+  color: #150035; 
+  margin-bottom: 6px;
 }
 .retancle-one.bottom.right-bottom
   .retancle-one-graph.right-bottom
@@ -744,7 +734,7 @@ div.right:nth-child(1) > div:nth-child(2) {
   font-size: 10px;
   line-height: 20px;
   text-align: right;
-  color: #35aaba;
+  color: #FB9B2B;
   position: relative;
   margin-bottom: 6px;
 }
@@ -754,7 +744,6 @@ div.right:nth-child(1) > div:nth-child(2) {
   .graph-block {
   display: flex;
   flex-direction: column;
-  
 }
 
 div.graph-block > .graph-col-1 {
@@ -773,7 +762,7 @@ div.graph-block > .graph-col-1 {
     url(./image/retangle-right/bg-retangle-red.svg);
   width: 50px;
   height: 6px;
-  color: #c36a6a;
+  color: #FF5A5A;
 }
 
 .retancle-one.bottom.right-bottom
@@ -858,7 +847,7 @@ div.bottom-block-stats-wrapper
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #150035; 
 
   padding: 32px 29px 15px 41px;
 }
@@ -937,7 +926,7 @@ div.bottom-block-stats-wrapper
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #150035; 
   text-align: left;
 }
 
@@ -972,13 +961,12 @@ div.bottom-block-stats-wrapper
 }
 .arrow-block > img:nth-child(3) {
   position: absolute;
- 
+
   left: 522px;
   top: 704px;
 }
 div.left-block:nth-child(3) {
   position: relative;
-   
   width: 445px;
 }
 
@@ -997,9 +985,9 @@ div.left-block:nth-child(3) {
   top: 258px;
 }
 .st0 {
-                fill: none;
-                stroke: #44bcff;
-                stroke-width: 21;
-                stroke-opacity: 0.2;
-                stroke-dasharray: 10, 10;
-              }
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 21;
+  stroke-opacity: 0.2;
+  stroke-dasharray: 10, 10;
+}

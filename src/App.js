@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-
+import ScriptTag from "react-script-tag";
  
 // import "./AnimateCircle.js";
 
@@ -600,8 +600,9 @@ function App() {
           </div>
         </footer>
       </body>
-      
-      
+
+      <ScriptTag script src="./animate-circle.js" />
+      <ScriptTag script src="./miniature.js" />
     </>
   );
 

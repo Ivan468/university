@@ -70,7 +70,7 @@ function spawnColor(iter) {
       );
       document.querySelector(
         ".js-guage-svg > path:nth-child(" + String(this.iteration) + ")"
-      ).style.fill = "#44BCFF";
+      ).style.fill = "#FB9B2B";
       this.color = this.color - rgbRedValue / 20;
       this.goFrames = this.goFrames + 1;
       this.reqAnim = requestAnimationFrame(this.fillColor.bind(this));
@@ -127,3 +127,5 @@ function reset() {
 }
 
 reset();
+
+ 
