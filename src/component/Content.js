@@ -414,15 +414,16 @@ const Content = () => {  return (
             >
               <path
                 d="M10 0V51"
-                stroke="#0E487B"
-                strokeWidth="20"
-                strokeDasharray="3 2"
+                stroke="#F79A2D"
+                stroke-opacity="0.2"
+                stroke-width="20"
+                stroke-dasharray="3 2"
               />
               <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M0 21.93V18.87H20V21.93H0ZM0 27.03V23.97H20V27.03H0ZM0 32.13V29.07H20V32.13H0ZM0 37.23V34.17H20V37.23H0ZM0 42.33V39.27H20V42.33H0ZM0 47.43V44.37H20V47.43H0ZM0 51V49.47H20V51H0Z"
-                fill="#44BCFF"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 21.9301V18.8701H20V21.9301H0ZM0 27.0301V23.9701H20V27.0301H0ZM0 32.1301V29.0701H20V32.1301H0ZM0 37.2301V34.1701H20V37.2301H0ZM0 42.3301V39.2701H20V42.3301H0ZM0 47.4301V44.3701H20V47.4301H0ZM0 51.0001V49.4701H20V51.0001H0Z"
+                fill="#F79A2D"
               />
             </svg>
           </div>
@@ -442,15 +443,16 @@ const Content = () => {  return (
             >
               <path
                 d="M10 0V51"
-                stroke="#0E487B"
-                strokeWidth="20"
-                strokeDasharray="3 2"
+                stroke="#F79A2D"
+                stroke-opacity="0.2"
+                stroke-width="20"
+                stroke-dasharray="3 2"
               />
               <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M0 21.93V18.87H20V21.93H0ZM0 27.03V23.97H20V27.03H0ZM0 32.13V29.07H20V32.13H0ZM0 37.23V34.17H20V37.23H0ZM0 42.33V39.27H20V42.33H0ZM0 47.43V44.37H20V47.43H0ZM0 51V49.47H20V51H0Z"
-                fill="#44BCFF"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 37.2299V34.1699H20V37.2299H0ZM0 42.3299V39.2699H20V42.3299H0ZM0 47.4299V44.3699H20V47.4299H0ZM0 50.9999V49.4699H20V50.9999H0Z"
+                fill="#F79A2D"
               />
             </svg>
           </div>
@@ -470,15 +472,16 @@ const Content = () => {  return (
             >
               <path
                 d="M10 0V51"
-                stroke="#0E487B"
-                strokeWidth="20"
-                strokeDasharray="3 2"
+                stroke="#F79A2D"
+                stroke-opacity="0.2"
+                stroke-width="20"
+                stroke-dasharray="3 2"
               />
               <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M0 21.93V18.87H20V21.93H0ZM0 27.03V23.97H20V27.03H0ZM0 32.13V29.07H20V32.13H0ZM0 37.23V34.17H20V37.23H0ZM0 42.33V39.27H20V42.33H0ZM0 47.43V44.37H20V47.43H0ZM0 51V49.47H20V51H0Z"
-                fill="#44BCFF"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 47.4301V44.3701H20V47.4301H0ZM0 51.0001V49.4701H20V51.0001H0Z"
+                fill="#F79A2D"
               />
             </svg>
           </div>
