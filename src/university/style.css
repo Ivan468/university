@@ -952,20 +952,19 @@ div.bottom-block-stats-wrapper
 .arrow-block > img:nth-child(1) {
   position: absolute;
   left: 951px;
-  top: 836px;
+  top: 768px;
   z-index: 2;
 }
 
 .arrow-block > img:nth-child(2) {
   position: absolute;
   left: 1249px;
-  top: 691px;
+  top: 625px;
 }
 .arrow-block > img:nth-child(3) {
   position: absolute;
-
   left: 522px;
-  top: 704px;
+  top: 635px;
 }
 div.left-block:nth-child(3) {
   position: relative;
@@ -977,14 +976,14 @@ div.left-block:nth-child(3) {
   width: 158px;
   height: 52px;
   left: 484px;
-  top: 277px;
+  top: 214px;
 }
 .arrow-block > img:nth-child(4) {
   width: 154px;
   position: absolute;
   height: 49px;
   left: 1235px;
-  top: 258px;
+  top: 191px;
 }
 .st0 {
   fill: none;
