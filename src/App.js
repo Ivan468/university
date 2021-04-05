@@ -4,11 +4,11 @@ import ScriptTag from "react-script-tag";
 import Content from "./component/Content";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Modal from "./component/Modal";
-// import "./AnimateCircle.js";
+import { AnimatedSwitch } from "react-router-transition";
 
+// import "./AnimateCircle.js";
 // import Script from "./script"
 // import Header from "./component/Header"
-
 function App() {
   return (
     <Router>
@@ -23,7 +23,8 @@ function App() {
             viewBox="0 0 20 29"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-          >            <circle cx="10" cy="5" r="4" stroke="#21CAFF" strokeWidth="2" />
+          >
+            <circle cx="10" cy="5" r="4" stroke="#21CAFF" strokeWidth="2" />
             <path
               d="M1.86852 15L10 27.1972L18.1315 15L1.86852 15Z"
               stroke="#21CAFF"
@@ -45,14 +46,20 @@ function App() {
         </div>
       </header>
       <Switch>
-        <Route exact path="/">
-          <Content />
-        </Route>
-        <Route path="/modal">
-          <Modal />
-        </Route>
+        <AnimatedSwitch
+          atEnter={{ opacity: 0 }}
+          atLeave={{ opacity: 0 }}
+          atActive={{ opacity: 1 }}
+          className="switch-wrapper"
+        >
+          <Route exact path="/">
+            <Content />
+          </Route>
+          <Route path="/modal">
+            <Modal />
+          </Route>
+        </AnimatedSwitch>
       </Switch>
-
       <footer>
         <div className="logo">
           <img src="./image/Logo.svg" alt="Logo" />
@@ -63,5 +70,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

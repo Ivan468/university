@@ -70,3 +70,11 @@
   height: 100%;
   flex-direction: column;
 }
+.switch-wrapper {
+   
+  flex: 1 0 auto;
+}
+
+.switch-wrapper > div {
+   
+}
