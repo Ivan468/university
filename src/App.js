@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import ScriptTag from "react-script-tag";
-import Content from "./component/Content";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Main from "./layouts/Main";
 import { AnimatedSwitch } from "react-router-transition";
