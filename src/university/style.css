@@ -409,7 +409,6 @@ main {
     url(./image/retancle-left/bg-retancle-left-top.svg);
   display: flex;
   flex-direction: column;
-  gap: 13px;
   z-index: 1;
   position: relative;
 }
@@ -993,4 +992,105 @@ div.left-block:nth-child(3) {
   stroke-width: 21;
   stroke-opacity: 0.2;
   stroke-dasharray: 10, 10;
+}
+/* NEW stiles */
+
+.left-block .finance-graph {
+  width: 378px;
+  height: 295px;
+  position: relative;
+  background: center / contain no-repeat
+    url(./image/retancle-left/sience-bg-chain.svg);
+}
+.finance-graph-top {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.finance-graph-top-circle {
+  position: relative;
+  width: 50%;
+}
+.finance-graph-top-circle > div {
+  position: absolute;
+}
+.list-circle {
+  display: inline-flex;
+  margin-right: 7px;
+}
+
+.finance-graph-text {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  width: 164px;
+  height: 118px;
+  letter-spacing: 0.03em;
+  color: #05102b;
+  padding-top: 50px;
+  display: grid;
+  justify-content: center;
+}
+.finance-graph-top-circle .graph-two {
+  left: 72px;
+  top: 8px;
+}
+.finance-graph-top-circle .graph-one {
+  left: 74px;
+  top: 18px;
+  z-index: 1;
+}
+.finance-graph-top-circle .graph-three {
+  top: 12px;
+  left: 72px;
+}
+.finance-graph-top-circle .sumfinanse-circle {
+  width: 39px;
+  height: 20px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  line-height: 20px;
+  color: #05102b;
+  left: 190px;
+  top: 13px;
+}
+.finance-graph-top-circle .sumfinanse-circle.two {
+  left: 38px;
+  top: 110px;
+}
+.circle-svg h3 {
+  width: 67px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #05102b;
+}
+.finance-graph-top-circle .circle-svg {
+  left: 100px;
+  top: 43px;
+}
+.finance-graph-top-circle .circle-svg h3 {
+  top: 23px;
+  position: absolute;
+}
+.finance-graph-top.botoom {
+  margin-top: 35px;
+}
+.finance-graph-top-circle .sumfinanse-circle.three {
+  left: 107px;
+  position: absolute;
+  top: 110px;
+}
+.finance-graph-top.botoom .circle-svg {
+  top: 45px;
+  left: 102px;
 }

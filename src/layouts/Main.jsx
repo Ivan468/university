@@ -17,15 +17,485 @@ const Content = () => {
             <div className="head-retancle">
               <h3 className="finance-text">Финансы</h3>
               <div className="finanse-cash">
-                <div>5 565 656 руб.</div>
-                <p>доходы филиалов</p>
-              </div>
-              <div className="finanse-cash">
-                <div>30 000 руб</div>
-                <p>Средняя зарплата</p>
+                <div>15 565 656 руб.</div>
+                <p>Общая стоимость имущества </p>
               </div>
             </div>
-           
+            <div className="finance-graph">
+              <div className="finance-graph-top">
+                <div className="finance-graph-top-circle">
+                  <div className="graph-one">
+                    <svg
+                      width="126"
+                      height="125"
+                      viewBox="0 0 126 125"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g filter="url(#filter0_d)">
+                        <path
+                          d="M59.8976 2C48.5252 2 37.4081 5.37232 27.9523 11.6905C18.4965 18.0087 11.1265 26.989 6.77451 37.4957C2.42247 48.0025 1.28378 59.5638 3.50243 70.7177C5.72108 81.8716 11.1974 92.1171 19.2389 100.159C27.2805 108.2 37.526 113.677 48.6799 115.895C59.8338 118.114 71.3951 116.975 81.9019 112.623C92.4086 108.271 101.389 100.901 107.707 91.4453C114.025 81.9895 117.398 70.8724 117.398 59.5H100.114C100.114 67.454 97.7552 75.2294 93.3362 81.843C88.9172 88.4565 82.6362 93.6111 75.2877 96.655C67.9391 99.6989 59.853 100.495 52.0518 98.9435C44.2506 97.3918 37.0847 93.5615 31.4604 87.9372C25.836 82.3129 22.0058 75.147 20.4541 67.3458C18.9023 59.5446 19.6987 51.4585 22.7426 44.1099C25.7865 36.7613 30.9411 30.4804 37.5546 26.0614C44.1682 21.6424 51.9436 19.2837 59.8976 19.2837V2Z"
+                          fill="#217AFF"
+                        />
+                      </g>
+                      <rect
+                        x="12.5"
+                        y="98.5"
+                        width="7"
+                        height="7"
+                        transform="rotate(-90 12.5 98.5)"
+                        fill="white"
+                        stroke="#2E81FE"
+                        stroke-width="3"
+                      />
+                      <defs>
+                        <filter
+                          id="filter0_d"
+                          x="0.397583"
+                          y="0"
+                          width="125"
+                          height="125"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          />
+                          <feOffset dx="3" dy="3" />
+                          <feGaussianBlur stdDeviation="2.5" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0.33 0 0 0 0 0.825 0 0 0 0.36 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div className="graph-two">
+                    <svg
+                      width="136"
+                      height="131"
+                      viewBox="0 0 136 131"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g filter="url(#filter0_d)">
+                        <path
+                          d="M125.23 73.0714C125.876 64.2634 124.648 55.4185 121.627 47.1196C118.606 38.8208 113.86 31.2565 107.703 24.9252C101.545 18.594 94.1159 13.6396 85.9044 10.3886C77.6929 7.13758 68.8856 5.66377 60.063 6.06431L60.9619 25.8642C66.9867 25.5907 73.0009 26.5971 78.6084 28.8172C84.2158 31.0372 89.2891 34.4204 93.4938 38.7439C97.6985 43.0673 100.939 48.2328 103.002 53.8999C105.065 59.5669 105.904 65.6069 105.463 71.6217L125.23 73.0714Z"
+                          fill="#2BD6FB"
+                        />
+                      </g>
+                      <rect
+                        x="104.571"
+                        y="29.571"
+                        width="7"
+                        height="7"
+                        transform="rotate(-90 104.571 29.571)"
+                        fill="white"
+                        stroke="#2BD6FB"
+                        stroke-width="3"
+                      />
+                      <defs>
+                        <filter
+                          id="filter0_d"
+                          x="54.063"
+                          y="0"
+                          width="81.3345"
+                          height="83.0714"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          />
+                          <feOffset dx="2" dy="2" />
+                          <feGaussianBlur stdDeviation="4" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.139844 0 0 0 0 0.745833 0 0 0 0 0.745833 0 0 0 0.51 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div className="circle-svg">
+                    <svg
+                      width="70"
+                      height="69"
+                      viewBox="0 0 70 69"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="34.8976" cy="34.5" r="34" stroke="#217AFF" />
+                    </svg>
+
+                    <h3>Остаток средств</h3>
+                  </div>
+                  <div className="sumfinanse-circle">15 565 656</div>
+                  <div className="sumfinanse-circle two">15 565 656</div>
+                </div>
+                <div className="finance-graph-text">
+                  <div>
+                    <div className="list-circle">
+                      <svg
+                        width="15"
+                        height="16"
+                        viewBox="0 0 15 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="2.12132"
+                          y="8"
+                          width="7"
+                          height="7"
+                          transform="rotate(-45 2.12132 8)"
+                          stroke="#217AFF"
+                          stroke-width="3"
+                        />
+                      </svg>
+                    </div>
+                    <span>Внебюджет</span>
+                  </div>
+                  <div>
+                    <div className="list-circle">
+                      <svg
+                        width="15"
+                        height="16"
+                        viewBox="0 0 15 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="2.12132"
+                          y="8"
+                          width="7"
+                          height="7"
+                          transform="rotate(-45 2.12132 8)"
+                          stroke="#2BD6FB"
+                          stroke-width="3"
+                        />
+                      </svg>
+                    </div>
+                    <span>Субсидия</span>
+                  </div>
+                </div>
+              </div>
+              <div className="finance-graph-top botoom">
+                <div className="finance-graph-top-circle">
+                  <div className="graph-one">
+                    <svg
+                      width="119"
+                      height="125"
+                      viewBox="0 0 119 125"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g filter="url(#filter0_d)">
+                        <path
+                          d="M60.8976 2C53.0263 2 45.2387 3.61612 38.0174 6.74824C30.7961 9.88037 24.2947 14.4618 18.916 20.2088C13.5374 25.9557 9.3959 32.7458 6.74819 40.1585C4.10049 47.5712 3.00291 55.4485 3.52346 63.3026C4.04401 71.1567 6.17159 78.8203 9.77442 85.8187C13.3773 92.8171 18.3786 99.0012 24.4687 103.988C30.5588 108.975 37.6079 112.658 45.1794 114.81C52.751 116.962 60.6836 117.536 68.4861 116.497L66.2051 99.3645C60.748 100.091 55.1997 99.6894 49.9041 98.1845C44.6085 96.6796 39.6782 94.1034 35.4187 90.6155C31.1592 87.1277 27.6612 82.8024 25.1414 77.9076C22.6215 73.0129 21.1334 67.6528 20.7693 62.1596C20.4053 56.6663 21.1729 51.1568 23.0248 45.9723C24.8766 40.7878 27.7732 36.0387 31.5351 32.0192C35.2971 27.9997 39.8442 24.7954 44.8949 22.6047C49.9456 20.4141 55.3923 19.2837 60.8976 19.2837V2Z"
+                          fill="#FD6A6A"
+                        />
+                      </g>
+                      <rect
+                        x="2.12132"
+                        y="58.071"
+                        width="7"
+                        height="7"
+                        transform="rotate(-45 2.12132 58.071)"
+                        fill="white"
+                        stroke="#FD6A6A"
+                        stroke-width="3"
+                      />
+                      <defs>
+                        <filter
+                          id="filter0_d"
+                          x="1.39758"
+                          y="0"
+                          width="75.0885"
+                          height="125"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          />
+                          <feOffset dx="3" dy="3" />
+                          <feGaussianBlur stdDeviation="2.5" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 1 0 0 0 0 0.129412 0 0 0 0 0.54902 0 0 0 0.28 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div className="graph-two">
+                    <svg
+                      width="136"
+                      height="131"
+                      viewBox="0 0 136 131"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g filter="url(#filter0_d)">
+                        <path
+                          d="M125.23 73.0714C125.876 64.2634 124.648 55.4185 121.627 47.1196C118.606 38.8208 113.86 31.2565 107.703 24.9252C101.545 18.594 94.1159 13.6396 85.9044 10.3886C77.6929 7.13758 68.8856 5.66377 60.063 6.06431L60.9619 25.8642C66.9867 25.5907 73.0009 26.5971 78.6084 28.8172C84.2158 31.0372 89.2891 34.4204 93.4938 38.7439C97.6985 43.0673 100.939 48.2328 103.002 53.8999C105.065 59.5669 105.904 65.6069 105.463 71.6217L125.23 73.0714Z"
+                          fill="#FFC01D"
+                        />
+                      </g>
+                      <rect
+                        x="105.5"
+                        y="31.5"
+                        width="7"
+                        height="7"
+                        transform="rotate(-90 105.5 31.5)"
+                        fill="white"
+                        stroke="#FFC01D"
+                        stroke-width="3"
+                      />
+                      <defs>
+                        <filter
+                          id="filter0_d"
+                          x="54.063"
+                          y="0"
+                          width="81.3345"
+                          height="83.0714"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          />
+                          <feOffset dx="2" dy="2" />
+                          <feGaussianBlur stdDeviation="4" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.984314 0 0 0 0 0.462275 0 0 0 0 0.168627 0 0 0 0.51 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div className="circle-svg">
+                    <svg
+                      width="70"
+                      height="69"
+                      viewBox="0 0 70 69"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <circle cx="34.8976" cy="34.5" r="34" stroke="#FD6A6A" />
+                    </svg>
+
+                    <h3>Затраты</h3>
+                  </div>
+                  <div className="sumfinanse-circle">15 565 656</div>
+                  <div className="sumfinanse-circle two">15 565 656</div>
+                  <div className="graph-three">
+                    <svg
+                      width="139"
+                      height="132"
+                      viewBox="0 0 139 132"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g filter="url(#filter0_d)">
+                        <path
+                          d="M70.3697 121.401C83.6558 120.101 96.0443 114.11 105.315 104.505C114.585 94.8986 120.131 82.305 120.958 68.9811L109.285 68.2562C108.63 78.8057 104.238 88.777 96.8985 96.3826C89.5586 103.988 79.7498 108.731 69.2303 109.761L70.3697 121.401Z"
+                          fill="#FB9B2B"
+                        />
+                      </g>
+                      <rect
+                        x="101.5"
+                        y="106.5"
+                        width="7"
+                        height="7"
+                        transform="rotate(-90 101.5 106.5)"
+                        fill="white"
+                        stroke="#FB9B2B"
+                        stroke-width="3"
+                      />
+                      <defs>
+                        <filter
+                          id="filter0_d"
+                          x="56.5928"
+                          y="60.322"
+                          width="81.7091"
+                          height="71.2274"
+                          filterUnits="userSpaceOnUse"
+                          color-interpolation-filters="sRGB"
+                        >
+                          <feFlood
+                            flood-opacity="0"
+                            result="BackgroundImageFix"
+                          />
+                          <feColorMatrix
+                            in="SourceAlpha"
+                            type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                          />
+                          <feOffset dx="2" dy="2" />
+                          <feGaussianBlur stdDeviation="4" />
+                          <feColorMatrix
+                            type="matrix"
+                            values="0 0 0 0 0.984314 0 0 0 0 0.462275 0 0 0 0 0.168627 0 0 0 0.51 0"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in2="BackgroundImageFix"
+                            result="effect1_dropShadow"
+                          />
+                          <feBlend
+                            mode="normal"
+                            in="SourceGraphic"
+                            in2="effect1_dropShadow"
+                            result="shape"
+                          />
+                        </filter>
+                      </defs>
+                    </svg>
+                    <div className="sumfinanse-circle three">15 565 656</div>
+                  </div>
+                </div>
+                <div className="finance-graph-text">
+                  <div>
+                    <div className="list-circle">
+                      <svg
+                        width="15"
+                        height="16"
+                        viewBox="0 0 15 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="2.12132"
+                          y="8"
+                          width="7"
+                          height="7"
+                          transform="rotate(-45 2.12132 8)"
+                          stroke="#217AFF"
+                          stroke-width="3"
+                        />
+                      </svg>
+                    </div>
+                    <span>Фонд оплаты труда</span>
+                  </div>
+                  <div>
+                    <div className="list-circle">
+                      <svg
+                        width="15"
+                        height="16"
+                        viewBox="0 0 15 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="2.12132"
+                          y="8"
+                          width="7"
+                          height="7"
+                          transform="rotate(-45 2.12132 8)"
+                          stroke="#2BD6FB"
+                          stroke-width="3"
+                        />
+                      </svg>
+                    </div>
+                    <span>Земельный налог</span>
+                  </div>
+                  <div>
+                    <div className="list-circle">
+                      <svg
+                        width="15"
+                        height="16"
+                        viewBox="0 0 15 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <rect
+                          x="2.12132"
+                          y="8"
+                          width="7"
+                          height="7"
+                          transform="rotate(-45 2.12132 8)"
+                          stroke="#2BD6FB"
+                          stroke-width="3"
+                        />
+                      </svg>
+                    </div>
+                    <span>Имущественный налог</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="retancle-one bottom">
             <div className="head-retancle">
