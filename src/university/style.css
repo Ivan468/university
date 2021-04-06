@@ -809,15 +809,15 @@ div.graph-block:nth-child(3) > div:nth-child(2) {
 
 .bottom-block-stats {
   display: flex;
-  width: 643px;
-  height: 118.5px;
+      width: 791px;
+    height: 163px;
   background: center/ contain no-repeat url(./image/bottom-block/bg-bottom.svg);
   padding: 30px 18px 18px 30px;
   justify-content: space-between;
   gap: 10px;
   position: absolute;
-  left: 286px;
-  top: -20px;
+  left: 208px;
+  top: -44px;
 }
 .stats-block {
   display: flex;
