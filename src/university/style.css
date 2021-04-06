@@ -1,5 +1,4 @@
 body {
-  /* min-width: 1920px; */
   min-width: 1900px;
   background: radial-gradient(
       21.75% 39.35% at 50% 50%,
@@ -17,7 +16,7 @@ form {
   align-items: center;
 }
 input.search {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   width: calc(100% - 55px);
   border: 0;
   outline: 0;
@@ -118,7 +117,6 @@ main {
   background: center/ 442px no-repeat url(./image/circle/circle-bg-small.svg),
     center/ 644px no-repeat url(./image/circle/circle-bg.svg);
   position: relative;
-  
 }
 .cyrcle-rotate {
   position: absolute;
@@ -308,8 +306,8 @@ main {
   text-align: center;
   width: 97px;
 }
-.earth-container>canvas {
-    top: -32px!important;
+.earth-container > canvas {
+  top: -32px !important;
 }
 .text-block > p {
   width: 97px;
@@ -404,8 +402,8 @@ main {
 /* LEFT BAR  -----------*/
 
 .left-block .retancle-one {
-  width: 413px;
-  height: 335.5px;
+  width: 433px;
+  height: 425px;
   padding: 30px 27px 40px 30px;
   background: center / contain no-repeat
     url(./image/retancle-left/bg-retancle-left-top.svg);
@@ -433,7 +431,7 @@ main {
   font-weight: normal;
   font-size: 20px;
   line-height: 20px;
-  color: #FB9B2B;
+  color: #fb9b2b;
 }
 
 .left-block .finanse-cash > p {
@@ -444,7 +442,7 @@ main {
   line-height: 15px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #150035; 
+  color: #150035;
   margin-top: 2px;
 }
 
@@ -457,7 +455,7 @@ main {
   font-size: 18px;
   line-height: 20px;
   letter-spacing: 0.05em;
-  color: #150035; 
+  color: #150035;
 }
 .retancle-one-graph {
   position: relative;
@@ -544,6 +542,10 @@ main {
   padding: 30px 34px 34px 34px;
   z-index: 1;
   align-self: flex-end;
+  width: 413px;
+  height: 371px;
+  background: center / contain no-repeat
+    url(./image/retancle-left/sience-bg-retancle-left-bottom.svg);
 }
 .retancle-one.bottom .retancle-one-graph {
   display: flex;
@@ -579,7 +581,7 @@ div.bottom-block-stats-wrapper
   line-height: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #627DAE;
+  color: #627dae;
   max-width: 69px;
   font-family: Oswald;
   font-style: normal;
@@ -647,7 +649,7 @@ div.bottom-block-stats-wrapper
   line-height: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #627DAE;
+  color: #627dae;
   max-width: 69px;
 }
 .left-block.right .finanse-cash > div {
@@ -722,7 +724,7 @@ div.right:nth-child(1) > div:nth-child(2) {
   line-height: 11px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #150035; 
+  color: #150035;
   margin-bottom: 6px;
 }
 .retancle-one.bottom.right-bottom
@@ -736,7 +738,7 @@ div.right:nth-child(1) > div:nth-child(2) {
   font-size: 10px;
   line-height: 20px;
   text-align: right;
-  color: #FB9B2B;
+  color: #fb9b2b;
   position: relative;
   margin-bottom: 6px;
 }
@@ -764,7 +766,7 @@ div.graph-block > .graph-col-1 {
     url(./image/retangle-right/bg-retangle-red.svg);
   width: 50px;
   height: 6px;
-  color: #FF5A5A;
+  color: #ff5a5a;
 }
 
 .retancle-one.bottom.right-bottom
@@ -849,7 +851,7 @@ div.bottom-block-stats-wrapper
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #150035; 
+  color: #150035;
 
   padding: 32px 29px 15px 41px;
 }
@@ -928,7 +930,7 @@ div.bottom-block-stats-wrapper
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #150035; 
+  color: #150035;
   text-align: left;
 }
 
