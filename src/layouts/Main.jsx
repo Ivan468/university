@@ -442,7 +442,7 @@ const Content = () => {
                           width="7"
                           height="7"
                           transform="rotate(-45 2.12132 8)"
-                          stroke="#217AFF"
+                          stroke="#FD6A6A"
                           stroke-width="3"
                         />
                       </svg>
@@ -464,7 +464,7 @@ const Content = () => {
                           width="7"
                           height="7"
                           transform="rotate(-45 2.12132 8)"
-                          stroke="#2BD6FB"
+                          stroke="#FFC01D"
                           stroke-width="3"
                         />
                       </svg>
@@ -486,7 +486,7 @@ const Content = () => {
                           width="7"
                           height="7"
                           transform="rotate(-45 2.12132 8)"
-                          stroke="#2BD6FB"
+                          stroke="#FB9B2B"
                           stroke-width="3"
                         />
                       </svg>
