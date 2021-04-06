@@ -501,6 +501,81 @@ const Content = () => {
             <div className="head-retancle">
               <h3 className="finance-text">Научная деятельность</h3>
             </div>
+            <div className="graph-block-siense">
+              <div className="graph-block-siense--left">
+                <img src="./image/retancle-left/graph.png" alt=" afas" />
+              </div>
+              <div class="finance-graph-text">
+                <div>
+                  <div class="list-circle">
+                    <svg
+                      width="15"
+                      height="16"
+                      viewBox="0 0 15 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        x="2.12132"
+                        y="8"
+                        width="7"
+                        height="7"
+                        transform="rotate(-45 2.12132 8)"
+                        stroke="#217AFF"
+                        stroke-width="3"
+                      ></rect>
+                    </svg>
+                    <div>
+                      <span>Поступления от НИР</span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="list-circle">
+                    <svg
+                      width="15"
+                      height="16"
+                      viewBox="0 0 15 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        x="2.12132"
+                        y="8"
+                        width="7"
+                        height="7"
+                        transform="rotate(-45 2.12132 8)"
+                        stroke="#2BD6FB"
+                        stroke-width="3"
+                      ></rect>
+                    </svg>
+                    <div>
+                      <span>Кол-во заключенных договоров </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="publicashion-block">
+              <ol>
+                <li className="active">Публикации WoS</li>
+                <li>Публикации Scopus</li>
+                <li>Публикации Q1</li>
+                <li>Публикации Q2</li>
+              </ol>
+              <div className="img-graph-publication">
+                <img
+                  src="./image/retancle-left/graph-publication.png"
+                  alt=""
+                />
+                <div className="month">
+                  <div>Март</div>
+                  <div>
+                    <b>128</b>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
