@@ -875,6 +875,61 @@ const Content = () => {
               <div className="stats-procent employment-position">70%</div>
             </div>
           </div>
+          <div className="load-of-teachers">
+            <h3>Нагрузка преподавателей </h3>
+            <div>
+              <div>
+                <svg
+                  width="63"
+                  height="20"
+                  viewBox="0 0 63 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M62.5001 10L0.00012207 10"
+                    stroke="#DFE7F2"
+                    stroke-width="20"
+                    stroke-dasharray="3 2"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M29.07 -2.22928e-07L32.13 -8.91712e-08L32.13 20L29.07 20L29.07 -2.22928e-07ZM23.97 -4.45856e-07L27.03 -3.12099e-07L27.03 20L23.97 20L23.97 -4.45856e-07ZM18.87 -6.68784e-07L21.93 -5.35027e-07L21.93 20L18.87 20L18.87 -6.68784e-07ZM13.77 -8.91712e-07L16.83 -7.57955e-07L16.83 20L13.77 20L13.77 -8.91712e-07ZM8.67004 -1.11464e-06L11.73 -9.80884e-07L11.73 20L8.67004 20L8.67004 -1.11464e-06ZM3.57004 -1.33757e-06L6.63004 -1.20381e-06L6.63004 20L3.57004 20L3.57004 -1.33757e-06ZM4.57764e-05 -1.49362e-06L1.53004 -1.42674e-06L1.53004 20L4.49021e-05 20L4.57764e-05 -1.49362e-06Z"
+                    fill="#217AFF"
+                  />
+                </svg>
+                <div className="stats-procent blue">50%</div>
+                <p>плановая</p>
+              </div>
+              <div>
+                <svg
+                  width="63"
+                  height="20"
+                  viewBox="0 0 63 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M62.5001 10L0.00012207 10"
+                    stroke="#F79A2D"
+                    stroke-opacity="0.2"
+                    stroke-width="20"
+                    stroke-dasharray="3 2"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M29.07 -2.22928e-07L32.13 -8.91712e-08L32.13 20L29.07 20L29.07 -2.22928e-07ZM23.97 -4.45856e-07L27.03 -3.12099e-07L27.03 20L23.97 20L23.97 -4.45856e-07ZM18.87 -6.68784e-07L21.93 -5.35027e-07L21.93 20L18.87 20L18.87 -6.68784e-07ZM13.77 -8.91712e-07L16.83 -7.57955e-07L16.83 20L13.77 20L13.77 -8.91712e-07ZM8.67004 -1.11464e-06L11.73 -9.80884e-07L11.73 20L8.67004 20L8.67004 -1.11464e-06ZM3.57004 -1.33757e-06L6.63004 -1.20381e-06L6.63004 20L3.57004 20L3.57004 -1.33757e-06ZM4.57764e-05 -1.49362e-06L1.53004 -1.42674e-06L1.53004 20L4.49021e-05 20L4.57764e-05 -1.49362e-06Z"
+                    fill="#F79A2D"
+                  />
+                </svg>
+
+                <div className="stats-procent ">55%</div>
+                <p>фактическая</p>
+              </div>
+            </div> 
+          </div>
         </div>
         <div className="left-wrapper">
           <div className="left--down-button button-down">
