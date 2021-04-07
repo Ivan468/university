@@ -813,7 +813,7 @@ div.graph-block:nth-child(3) > div:nth-child(2) {
   height: 163px;
   background: center/ contain no-repeat url(./image/bottom-block/bg-bottom.svg);
   padding: 30px 18px 18px 30px;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   gap: 10px;
   position: absolute;
   left: 208px;
@@ -1278,4 +1278,48 @@ div.left-block:nth-child(3) {
   border: 2px solid #217aff;
   box-sizing: border-box;
   transform: rotate(-45deg);
+}
+.stats-block-botoom-down {
+  border-top: 1px dashed #217affa9;
+  padding-top: 10px;
+}
+.stats-block-botoom h3 {
+  min-width: 60px;
+  height: 14px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #05102b;
+}
+.stats-block-botoom .row {
+  display: grid;
+  grid-template-columns: 60px 170px;
+  gap: 6px;
+  position: relative;
+  margin-bottom: 7px;
+}
+.stats-block-botoom .row .value {
+  position: absolute;
+  right: 20px;
+  top: -12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+  color: #05102b;
+  z-index: 8;
+}
+.stats-block-botoom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.stats-block-botoom .row .value.low-val {
+    right: 50px;
 }

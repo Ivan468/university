@@ -1082,6 +1082,104 @@ const Content = () => {
               </div>
             </div>
           </div>
+          <div className="stats-block-botoom">
+            <div className="stats-block-botoom-top">
+              <div className="row">
+                <h3>Очное</h3>
+                <svg
+                  width="166"
+                  height="15"
+                  viewBox="0 0 166 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M158.946 9H0V5H163L158.946 9Z" fill="#217AFF" />
+                  <rect
+                    x="158.071"
+                    y="2.12132"
+                    width="7"
+                    height="7"
+                    transform="rotate(45 158.071 2.12132)"
+                    fill="white"
+                    stroke="#217AFF"
+                    stroke-width="3"
+                  />
+                </svg>
+                <div className="value">8 217</div>
+              </div>
+              <div className="row">
+                <h3>Заочное</h3>
+                <svg
+                  width="140"
+                  height="15"
+                  viewBox="0 0 140 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M129.946 9H0V5H134L129.946 9Z" fill="#217AFF" />
+                  <rect
+                    x="132.071"
+                    y="2.12132"
+                    width="7"
+                    height="7"
+                    transform="rotate(45 132.071 2.12132)"
+                    fill="white"
+                    stroke="#217AFF"
+                    stroke-width="3"
+                  />
+                </svg>
+                <div className="value low-val">3125</div>
+              </div>
+            </div>
+            <div className="stats-block-botoom-down">
+              <div className="row">
+                <h3>Бюджет</h3>
+                <svg
+                  width="166"
+                  height="15"
+                  viewBox="0 0 166 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M158.946 9H0V5H163L158.946 9Z" fill="#217AFF" />
+                  <rect
+                    x="158.071"
+                    y="2.12132"
+                    width="7"
+                    height="7"
+                    transform="rotate(45 158.071 2.12132)"
+                    fill="white"
+                    stroke="#217AFF"
+                    stroke-width="3"
+                  />
+                </svg>
+                <div className="value">8 217</div>
+              </div>
+              <div className="row">
+                <h3>Внебюджет</h3>
+                <svg
+                  width="140"
+                  height="15"
+                  viewBox="0 0 140 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M129.946 9H0V5H134L129.946 9Z" fill="#217AFF" />
+                  <rect
+                    x="132.071"
+                    y="2.12132"
+                    width="7"
+                    height="7"
+                    transform="rotate(45 132.071 2.12132)"
+                    fill="white"
+                    stroke="#217AFF"
+                    stroke-width="3"
+                  />
+                </svg>
+                <div className="value  low-val">3125</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="left-wrapper">
           <div className="left--down-button button-down">
