@@ -928,7 +928,159 @@ const Content = () => {
                 <div className="stats-procent ">55%</div>
                 <p>фактическая</p>
               </div>
-            </div> 
+            </div>
+          </div>
+          <div className="central-graph-block">
+            <div className="central-graph">
+              <div className="emerging-hint">
+                <p>Март</p>
+                <div className="text-hint">
+                  <div className="blue-cub"></div> 8725
+                </div>
+                <div className="text-hint">
+                  <div className="blue-cub"></div>7658
+                </div>
+              </div>
+              <svg
+                width="171"
+                height="84"
+                viewBox="0 0 171 84"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect x="6.25" y="27" width="4" height="53" fill="#217AFF" />
+                <rect x="27.25" y="9" width="4" height="71" fill="#217AFF" />
+                <rect x="47.25" width="4" height="80" fill="#217AFF" />
+                <rect x="67.25" y="17" width="4" height="63" fill="#217AFF" />
+                <rect x="88.25" y="17" width="4" height="63" fill="#217AFF" />
+                <rect x="109.25" y="4" width="4" height="76" fill="#217AFF" />
+                <rect x="130.25" y="4" width="4" height="76" fill="#217AFF" />
+                <rect x="151.25" y="4" width="4" height="76" fill="#217AFF" />
+                <rect x="12.25" y="40" width="4" height="40" fill="#FB9B2B" />
+                <rect x="33.25" y="33" width="4" height="47" fill="#FB9B2B" />
+                <rect x="53.25" y="44" width="4" height="36" fill="#FB9B2B" />
+                <rect x="73.25" y="33" width="4" height="47" fill="#FB9B2B" />
+                <rect x="94.25" y="33" width="4" height="47" fill="#FB9B2B" />
+                <rect x="115.25" y="13" width="4" height="67" fill="#FB9B2B" />
+                <rect x="136.25" y="13" width="4" height="67" fill="#FB9B2B" />
+                <rect x="157.25" y="13" width="4" height="67" fill="#FB9B2B" />
+                <rect x="0.25" y="79" width="170" height="1" fill="#B2CEF6" />
+                <rect
+                  x="8.95711"
+                  y="79.5356"
+                  width="4"
+                  height="4"
+                  transform="rotate(-45 8.95711 79.5356)"
+                  fill="white"
+                  stroke="#B2CEF6"
+                />
+                <rect
+                  x="28.9571"
+                  y="79.5356"
+                  width="4"
+                  height="4"
+                  transform="rotate(-45 28.9571 79.5356)"
+                  fill="white"
+                  stroke="#B2CEF6"
+                />
+                <rect
+                  x="48.9571"
+                  y="79.5356"
+                  width="4"
+                  height="4"
+                  transform="rotate(-45 48.9571 79.5356)"
+                  fill="white"
+                  stroke="#B2CEF6"
+                />
+                <rect
+                  x="68.9571"
+                  y="79.5356"
+                  width="4"
+                  height="4"
+                  transform="rotate(-45 68.9571 79.5356)"
+                  fill="white"
+                  stroke="#B2CEF6"
+                />
+                <rect
+                  x="89.9571"
+                  y="79.5356"
+                  width="4"
+                  height="4"
+                  transform="rotate(-45 89.9571 79.5356)"
+                  fill="white"
+                  stroke="#B2CEF6"
+                />
+                <rect
+                  x="110.957"
+                  y="79.5356"
+                  width="4"
+                  height="4"
+                  transform="rotate(-45 110.957 79.5356)"
+                  fill="white"
+                  stroke="#B2CEF6"
+                />
+                <rect
+                  x="131.957"
+                  y="79.5356"
+                  width="4"
+                  height="4"
+                  transform="rotate(-45 131.957 79.5356)"
+                  fill="white"
+                  stroke="#B2CEF6"
+                />
+                <rect
+                  x="152.957"
+                  y="79.5356"
+                  width="4"
+                  height="4"
+                  transform="rotate(-45 152.957 79.5356)"
+                  fill="white"
+                  stroke="#B2CEF6"
+                />
+              </svg>
+            </div>
+            <div className="text-wrap">
+              <div>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="3"
+                    y="8"
+                    width="7"
+                    height="7"
+                    transform="rotate(-45 3 8)"
+                    stroke="#217AFF"
+                    stroke-width="3"
+                  />
+                </svg>
+                <h3>Бакалавры</h3>
+              </div>
+              <div>
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="3"
+                    y="8"
+                    width="7"
+                    height="7"
+                    transform="rotate(-45 3 8)"
+                    stroke="#FB9B2B"
+                    stroke-width="3"
+                  />
+                </svg>
+                <h3>Магистри</h3>
+              </div>
+            </div>
           </div>
         </div>
         <div className="left-wrapper">
