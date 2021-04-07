@@ -809,8 +809,8 @@ div.graph-block:nth-child(3) > div:nth-child(2) {
 
 .bottom-block-stats {
   display: flex;
-      width: 791px;
-    height: 163px;
+  width: 791px;
+  height: 163px;
   background: center/ contain no-repeat url(./image/bottom-block/bg-bottom.svg);
   padding: 30px 18px 18px 30px;
   justify-content: space-between;
@@ -1117,7 +1117,7 @@ div.left-block:nth-child(3) {
   padding-top: 12px;
 }
 .publicashion-block ol {
-margin-right: 10px;
+  margin-right: 10px;
 }
 .publicashion-block li {
   width: 140px;
@@ -1159,12 +1159,41 @@ margin-right: 10px;
   color: #05102b;
   padding: 3px 0px 0px 8px;
   position: absolute;
-      right: -27px;
-    top: 13px;
+  right: -27px;
+  top: 13px;
 }
 .month b {
   font-weight: bold;
 }
 .img-graph-publication {
   position: relative;
+}
+.bottom-block-stats .employment {
+  position: relative;
+  border-right: 1px dashed #217affbb;
+  padding-right: 24px;
+}
+
+.stats-procent {
+  font-family: Oswald, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 20px;
+  color: #f79a2d;
+}
+.employment h3 {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #05102b;
+  margin-bottom: 7px;
+}
+.employment-position {
+  position: absolute;
+  top: 53px;
+  left: 27px;
 }

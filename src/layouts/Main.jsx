@@ -564,10 +564,7 @@ const Content = () => {
                 <li>Публикации Q2</li>
               </ol>
               <div className="img-graph-publication">
-                <img
-                  src="./image/retancle-left/graph-publication.png"
-                  alt=""
-                />
+                <img src="./image/retancle-left/graph-publication.png" alt="" />
                 <div className="month">
                   <div>Март</div>
                   <div>
@@ -849,7 +846,35 @@ const Content = () => {
       </main>
       <div className="bottom-block-stats-wrapper">
         <div className="bottom-block-stats">
-          
+          <div className="employment">
+            <h3>Трудоустройство</h3>
+            <div className="graph">
+              <svg
+                width="85"
+                height="85"
+                viewBox="0 0 85 85"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="42.5"
+                  cy="42.5"
+                  r="37.5"
+                  stroke="#F9E7D2"
+                  stroke-width="6"
+                  stroke-dasharray="2 2"
+                />
+                <circle cx="42.5" cy="42.5" r="28.5" stroke="#FB9B2B" />
+                <path
+                  d="M5 42.5C5 63.2107 21.7893 80 42.5 80C63.2107 80 80 63.2107 80 42.5C80 21.7893 63.2107 5 42.5 5"
+                  stroke="#FB9B2B"
+                  stroke-width="9"
+                  stroke-dasharray="2 2"
+                />
+              </svg>
+              <div className="stats-procent employment-position">70%</div>
+            </div>
+          </div>
         </div>
         <div className="left-wrapper">
           <div className="left--down-button button-down">
