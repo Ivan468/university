@@ -817,7 +817,7 @@ div.graph-block:nth-child(3) > div:nth-child(2) {
   gap: 10px;
   position: absolute;
   left: 208px;
-  top: -44px;
+  top: -49px;
 }
 .stats-block {
   display: flex;
@@ -952,7 +952,7 @@ div.bottom-block-stats-wrapper
 }
 .arrow-block > img:nth-child(1) {
   position: absolute;
-  left: 951px;
+  left: 952px;
   top: 768px;
   z-index: 2;
 }
@@ -1082,6 +1082,10 @@ div.left-block:nth-child(3) {
   top: 23px;
   position: absolute;
 }
+.finance-graph-top-circle .circle-svg h3.position-text{
+top: 28px;
+}
+
 .finance-graph-top.botoom {
   margin-top: 35px;
 }

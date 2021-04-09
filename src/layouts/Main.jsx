@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ScriptTag from "react-script-tag";
  import {Helmet} from "react-helmet";
+//  import Animate from "../university/animate-circle.js"
 
 export default class Content extends Component {
   componentDidMount() {
@@ -10,9 +11,10 @@ export default class Content extends Component {
     script.src = "./js/animate-circle.js";
     script.async = true;
 
-   this.div.appendChild(script);
-    // <>
-    //   <script 
+    this.div.appendChild(script);
+    // <> <Animate/>
+
+    //   <script
     //     src="https://github.com/Ivan468/university/blob/630e6f74193009908d200906e67d6cd7d44e6336/public/js/animate-circle.js"
     //   />
     //   <ScriptTag script src="./js/miniature.js" />
@@ -22,11 +24,11 @@ export default class Content extends Component {
     return (
       <div className="content" ref={(el) => (this.div = el)}>
         <div className="arrow-block">
-          <img src="./image/arrow/bottom-centr.svg" alt="" />
-          <img src="./image/arrow/bottom-right.svg" alt="" />
-          <img src="./image/arrow/left-bottom.svg" alt="" />
-          <img src="./image/arrow/right-top.svg" alt="" />
-          <img src="./image/arrow/left-top.svg" alt="" />
+          <img src="./image/arrow/bottom-centr.svg" alt="arrow" />
+          <img src="./image/arrow/bottom-right.svg" alt="arrow" />
+          <img src="./image/arrow/left-bottom.svg" alt="arrow" />
+          <img src="./image/arrow/right-top.svg" alt="arrow" />
+          <img src="./image/arrow/left-top.svg" alt="arrow" />
         </div>
         <main>
           <div className="left-block">
@@ -383,7 +385,7 @@ export default class Content extends Component {
                         />
                       </svg>
 
-                      <h3>Затраты</h3>
+                      <h3 className="position-text">Затраты</h3>
                     </div>
                     <div className="sumfinanse-circle">15 565 656</div>
                     <div className="sumfinanse-circle two">15 565 656</div>
@@ -1126,7 +1128,7 @@ export default class Content extends Component {
                       strokeWidth="3"
                     />
                   </svg>
-                  <h3>Магистри</h3>
+                  <h3>Магистры</h3>
                 </div>
               </div>
             </div>
@@ -1239,8 +1241,7 @@ export default class Content extends Component {
           </div>
         </div>
         <Helmet>
-         
-          <script async src="./miniature.js"/>
+          <script async src="./miniature.js" />
         </Helmet>
       </div>
     );

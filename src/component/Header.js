@@ -22,7 +22,7 @@ const Header = () => {
           </svg>
         </div>
         <div className="text-block">
-          <h2>Иван Иванович</h2>
+          <h2> </h2>
           <p>Ректор</p>
         </div>
       </div>
