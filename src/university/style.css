@@ -834,7 +834,7 @@ div.bottom-block-stats-wrapper
   div.stats-block
   div.graph-text
   div {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -842,7 +842,7 @@ div.bottom-block-stats-wrapper
   color: #150035;
 }
 .button-down {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10px;
@@ -851,8 +851,7 @@ div.bottom-block-stats-wrapper
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #150035;
-
-  padding: 32px 29px 15px 41px;
+  padding: 32px 29px 15px 39px;
 }
 .left-wrapper {
   display: flex;
@@ -1082,8 +1081,8 @@ div.left-block:nth-child(3) {
   top: 23px;
   position: absolute;
 }
-.finance-graph-top-circle .circle-svg h3.position-text{
-top: 28px;
+.finance-graph-top-circle .circle-svg h3.position-text {
+  top: 28px;
 }
 
 .finance-graph-top.botoom {
@@ -1325,5 +1324,5 @@ top: 28px;
   justify-content: space-evenly;
 }
 .stats-block-botoom .row .value.low-val {
-    right: 50px;
+  right: 50px;
 }

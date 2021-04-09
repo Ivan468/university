@@ -1236,7 +1236,7 @@ export default class Content extends Component {
               <h3>Проверки</h3>
             </div>
             <div className="right--down-button button-down">
-              <h3>Транслации экзаменов</h3>
+              <h3>Трансляции экзаменов</h3>
             </div>
           </div>
         </div>
